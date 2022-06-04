@@ -37,12 +37,33 @@
   }
 }
 
-.non-selcted{
-
-
-}
 
 .selected{
   text-decoration: line-through;
 
+}
+
+
+.high-score{
+  color: #a2db6e;
+}
+.medium-score{
+  color: rgb(235, 185, 37);
+}
+.low-score{
+  color: #bd4512;
+}
+
+.score{
+  font-weight: 900;
+}
+
+.cong{
+  font-weight: 700;
+  color: #a2db6e;
+}
+
+.lost{
+  font-weight: 700;
+  color: #bd4512;
 }

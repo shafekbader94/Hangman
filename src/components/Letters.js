@@ -11,9 +11,11 @@ class Letters extends Component {
         <div>
             <div>Available letters: </div>
             <span>{letterStatus.map((letter,i) => 
-            <Letter availableLetters={letter} 
+            <Letter selectLetter={this.props.selectLetter}
+             key={letter} availableLetters={letter} 
              class={letterStatusValue[i] === false ?
-             "non-selcted" : "selected"}/>)}
+             "non-selcted" : "selected"} 
+              />)}
              </span>
         </div>)
     }
